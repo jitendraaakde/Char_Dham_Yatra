@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    /* font-family: 'Baloo Bhai 2', cursive; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+h2{
+    color: black;
+}
+
+.image-kedar{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: -1px 7px 8px 1px rgb(0 0 0 / 30%);
+}
+
+.mini-para{
+    padding: 30px;
+    line-height: 30px;
+    word-spacing: 0.2rem;
+}
+
+/* 496px */
+@media (max-width: 31em) {
+    .image-kedar {
+        height: 250px;
+        width: 300px;
+    }
+}
+/* 400px */
+@media (max-width: 25em) {
+    .image-kedar {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/* 300px */
+@media (max-width: 18.75em) {
+    .image-kedar {
+        height: 180px;
+        width: 180px;
+    }
+}
+
+.table-image{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+}
+
+.monthWise{
+    background: #11b880;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+}

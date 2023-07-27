@@ -1,0 +1,90 @@
+.tour-box {
+    display: block;
+    border: 2px solid #0734c7;
+    border-radius: 8px;
+  }
+  .tour-card {
+    word-wrap: break-word;
+  }
+  .tour-card-header {
+    background-color: #f00e0e;
+    padding: 2rem;
+  }
+  .tour-card-header-item {
+    color: white;
+    padding: 0.5rem;
+    border: 2px solid white;
+    border-radius: 8px;
+    display: inline;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .tour-card-header-item:hover {
+    background: whitesmoke;
+    color: black;
+    transition: all 0.5s;
+  }
+  
+  .tour-info-box {
+    display: block;
+  }
+  .tour-info-box-img {
+    background-image: linear-gradient(red, rgb(255, 174, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffff;
+    opacity: 0.7;
+  }
+  .info-box-space {
+    padding: 1.5rem 4rem;
+  }
+  .tour-info-box-col {
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+  }
+  .tour-info-box-col-data {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 2rem;
+    /* flex: 0 0 50%; */
+    /* max-width: 50%; */
+  }
+  .tour-info-box-col-data a {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #6cb0fb;
+  }
+  .tour-info-box-col-data a:hover {
+    text-decoration: underline;
+  }
+  .tour-info-box-col-data p {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #ffff;
+  }
+  
+  /* ====================================
+  Tour Section Responsive Codes
+  ==================================== */
+  /* 768px */
+  @media (max-width: 48em) {
+    .info-box-space {
+      padding: 1.5rem 0.1rem;
+    }
+    .tour-info-box-col-data {
+      position: relative;
+      width: 100%;
+      min-height: 1px;
+    }
+  }
+
+
+.section-3 {
+    background-image: url(/Images/tours.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
